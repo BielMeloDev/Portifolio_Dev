@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url("assets/imgs/bg-gradient-azul.png");
+}
