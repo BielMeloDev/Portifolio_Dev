@@ -1,8 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+ }
+
+.menu-container {
+    padding: 10px;
+    background-color: #00007a;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
 }
 
-.bg {
-    background-image: url("assets/imgs/bg-gradient-azul.png");
+.nav-list {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    padding: 0 15px 0 15px;
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none; 
+    color: #fff;
+}
+
+.container {
+    background-image: linear-gradient(to bottom, #381be3, #00007a);
+    min-width: 300px;
+    max-width: 6144px;
+    width: 100%; 
+    height: 600px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentação {
+    background-color: #fff;
+    width: 900px;
+    height: 497px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-radius: 0 10px 0 10px;
+}
+
+
+.elementos-esquerda {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0 0 100px;
+}
+
+
+.redes {
+    margin: 0;
+    display: flex;
+}
+
+.redes img {
+    padding: 0 10px 0 0;
+    width: 60px;
+}
+
+.foto-perfil {
+    flex: 1;
+    text-align: right;
+    top: 0;
+    margin-top: -100px;
+    margin-right: -20px;
 }
